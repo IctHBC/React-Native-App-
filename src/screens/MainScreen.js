@@ -10,9 +10,9 @@ import {
 export default class MainScreen extends Component {
   _pushChatting(){
     this.props.navigator.push({
-      screen: 'yuddomack.ChattingScreen', // unique ID registered with Navigation.registerScreen
-      title: 'Chatting', // navigation bar title of the pushed screen (optional)
-      passProps: {}, // Object that will be passed as props to the pushed screen (optional)
+      screen: 'yuddomack.ChattingScreen', 
+      title: 'Chatting', 
+      passProps: {}, 
     });
   }
   render() {

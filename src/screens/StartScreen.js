@@ -5,17 +5,17 @@ import CustomButton from '../components/CustomButton';
 export default class StartScreen extends Component {
   _pushJoin(){
     this.props.navigator.push({
-      screen: 'yuddomack.JoinScreen', // unique ID registered with Navigation.registerScreen
-      title: 'Sign Up', // navigation bar title of the pushed screen (optional)
-      passProps: {}, // Object that will be passed as props to the pushed screen (optional)
+      screen: 'yuddomack.JoinScreen', 
+      title: 'Sign Up', 
+      passProps: {}, 
     });
   }
 
   _pushLogin(){
     this.props.navigator.push({
-      screen: 'yuddomack.LoginScreen', // unique ID registered with Navigation.registerScreen
-      title: 'Login', // navigation bar title of the pushed screen (optional)
-      passProps: {}, // Object that will be passed as props to the pushed screen (optional)
+      screen: 'yuddomack.LoginScreen', 
+      title: 'Login', 
+      passProps: {}, 
     });
   }
 
@@ -54,24 +54,24 @@ const styles = StyleSheet.create({
   header: {
     width:'100%',
     height:'5%',
-    //backgroundColor: '#ff9a9a',
+    
   },
   title: {
     width:'100%',
     height:'18%',
     justifyContent: 'center',
-    //backgroundColor: '#9aa9ff',
+   
   },
   content: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     paddingBottom:30,
-    //backgroundColor: '#d6ca1a',
+    
   },
   footer: {
     width:'100%',
     height:'20%',
-    //backgroundColor: '#1ad657',
+   
   },
 });

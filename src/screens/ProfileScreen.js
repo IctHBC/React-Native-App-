@@ -5,9 +5,9 @@ import CustomButton from '../components/CustomButton';
 export default class ProfileScreen extends Component{
     _pushMain(){
         this.props.navigator.push({
-          screen: 'yuddomack.MainScreen', // unique ID registered with Navigation.registerScreen
-          title: 'Main', // navigation bar title of the pushed screen (optional)
-          passProps: {}, // Object that will be passed as props to the pushed screen (optional)
+          screen: 'yuddomack.MainScreen', 
+          title: 'Main', 
+          passProps: {}, 
         });
       }
   render() {
@@ -52,24 +52,24 @@ const styles = StyleSheet.create({
   header: {
     width:'100%',
     height:'5%',
-    //backgroundColor: '#ff9a9a',
+    
   },
   title: {
     width:'100%',
     height:'18%',
     justifyContent: 'center',
-    //backgroundColor: '#9aa9ff',
+    
   },
   content: {
     flex: 1,
     paddingLeft:10,
     paddingRight:10,
     paddingBottom:30,
-    //backgroundColor: '#d6ca1a',
+    
   },
   footer: {
     width:'100%',
     height:'20%',
-    //backgroundColor: '#1ad657',
+   
   },
 });
